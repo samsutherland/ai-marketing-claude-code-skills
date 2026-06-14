@@ -45,6 +45,15 @@ That's it. Claude Code will now automatically use these skills when you mention 
 
 ### Strategy & Positioning
 
+#### 🧠 Belief Shift Architect
+Design a 90-day psychological campaign to install a belief in your audience before pitching your offer. Uses the Identity, Fear, Social Proof, Aspiration, and Enemy framework to sequence content that makes buying feel self-directed.
+
+**Use when:** "Build my campaign", "belief shift", "90-day content strategy", "make my offer feel inevitable", "engineer desire"
+
+→ [belief-shift-architect/SKILL.md](./belief-shift-architect/SKILL.md)
+
+---
+
 #### 🎯 Positioning Basics
 Core positioning framework for founders and marketers. Clarify who you're for, what you do, and why you're different.
 
