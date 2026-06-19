@@ -47,11 +47,11 @@ No spam. One guide, then a short email series. Unsubscribe any time.
 
 **[Quote block]**
 
-> "[Quote referencing AI interaction with Streeka or 'I didn't have to think about how to ask it']"
+> "I came back without guessing, panicking, or overdoing it."
 >
-> — [Name], [brief context]
+> — Tim, backyard ultra runner, returned to training after a week off sick
 
-**Note for build:** Use a testimonial that references Streeka's AI specifically — something like "I just asked it" or "it already knew." If no AI-specific quote available, use Tim's quote from the first guide as placeholder and flag for replacement.
+**Note for build:** Tim's quote is the strongest available — it names the exact behaviour the guide promises (the AI already had his context, so he didn't have to reconstruct it). Replace later if a more AI-explicit quote surfaces (e.g. "I just asked it" / "it already knew"). Source: Email 3 of this sequence.
 
 ---
 
