@@ -51,7 +51,7 @@ That's the whole product thesis: most training advice is written for the week yo
 
 ## Traction & credibility
 
-- **80+ paying subscribers** — real revenue, not free signups.
+- **Around 40 paying subscribers** — real revenue, not free signups.
 - iOS + Android, live and shipping.
 - Built and run by a cyclist for cyclists — founder-led, founder-used daily.
 

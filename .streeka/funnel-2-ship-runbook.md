@@ -12,7 +12,7 @@ All four assets are written, in Sam's voice, and passed the voice-guide + de-ai-
 
 ## Decisions already resolved this session
 - **Testimonial:** Use Tim's quote ("I came back without guessing, panicking, or overdoing it"). Done in landing copy.
-- **Strava vs Garmin/Wahoo:** Not a conflict. Guide = "Claude + Strava (read-only)". Streeka connects via Garmin + Wahoo OAuth (fuller data) and also syncs Strava. The contrast is the whole funnel argument. Leave as-is.
+- **Strava vs Garmin/Wahoo:** Not a conflict. Guide = "Claude + Strava (read-only)". Streeka connects via Garmin + Wahoo OAuth (fuller data) — **not Strava** (corrected 2026-06-19). The contrast is the whole funnel argument, and it's *sharper* this way: Claude+Strava (read-only, limited) vs Streeka's fuller Garmin/Wahoo device data. Leave the funnel framing as-is.
 
 ---
 

@@ -74,7 +74,7 @@ Based on my thorough exploration of the workspace, here is an exhaustive feature
 - **Garmin OAuth Flow** — Complete Garmin Connect authorization with activity sync backfill
 - **Wahoo OAuth Flow** — Wahoo Cloud authorization and activity sync
 - **Manage Connections Screen** — View and disconnect linked wearable accounts
-- **Automatic Activity Sync** — Background activity sync from wearables (Garmin, Wahoo, Strava)
+- **Automatic Activity Sync** — Background activity sync from wearables (Garmin, Wahoo)
 - **Connection Status** — Display current provider connection health and sync status
 - **Provider Selector** — UI to choose between Garmin, Wahoo, or manual entry
 - **Activity Backfill** — Fetch historical activities on first connection
@@ -153,7 +153,7 @@ Based on my thorough exploration of the workspace, here is an exhaustive feature
 - **Get My Activity Details** — `GET /api/activities/me/{activityId}` — Detailed activity data with laps, segments, efforts
 - **Get My Activity Efforts** — `GET /api/activities/me/{activityId}/efforts` — Power/speed efforts detected in activity
 - **Get User Activity Efforts** — `GET /api/activities/user/{externalUserId}/{activityId}/efforts` — Coach-accessible effort data
-- **Wearable Activity Sync** — Automatic sync from Garmin, Wahoo, Strava
+- **Wearable Activity Sync** — Automatic sync from Garmin, Wahoo
 - **Manual Activity Import** — Allow manual entry of activities (type, duration, intensity)
 - **Activity Calculations** — TSS, Normalized Power, Intensity Factor, VAM computations
 - **Lap & Segment Data** — Support for lap-level metrics (HR, power, cadence averages)
@@ -328,7 +328,6 @@ Based on my thorough exploration of the workspace, here is an exhaustive feature
 - **Azure OpenAI** — Plan generation, SAMI chat, personality profiling
 - **Garmin Connect OAuth** — Activity sync, plan push, device management
 - **Wahoo Cloud OAuth** — Activity sync, plan integration
-- **Strava** — Activity data import (manual or API)
 - **Firebase** — Remote config, cloud messaging, crashlytics
 - **RevenueCat** — Subscription management and in-app purchases
 - **Microsoft Entra ID** — Authentication and identity

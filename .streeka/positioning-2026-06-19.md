@@ -52,8 +52,9 @@ and the "AI black box" fear (validated in r/Velo).
 
 ## Nuance to protect
 
-"Not dodgy metrics" is the right *enemy*, but Streeka **does** read real Garmin/Wahoo/Strava
-data — that's a strength, not something to disown. Message the distinction, never "no data":
+"Not dodgy metrics" is the right *enemy*, but Streeka **does** read real Garmin/Wahoo
+data — that's a strength, not something to disown. (Streeka does **not** connect to Strava —
+corrected 2026-06-19. Garmin + Wahoo OAuth only.) Message the distinction, never "no data":
 
 - ✅ "Reads what you actually rode, then explains it in plain language."
 - ✅ "You shouldn't need to interpret a wall of numbers."

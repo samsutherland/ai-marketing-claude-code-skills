@@ -1,6 +1,8 @@
 # Implementation Ticket — Streeka schema/meta + geo fixes
 
 **Source:** AI discoverability re-audit 2026-06-17 (`.streeka/ai-discoverability-reaudit-2026-06-17.md`). Score 13/30.
+
+> ⚠️ **CORRECTION 2026-06-19 — Strava removed.** Streeka does **not** connect to Strava (Garmin + Wahoo OAuth only). The schema `description` and `featureList` in this ticket originally said "Garmin, Wahoo and Strava." **If this ticket was already shipped to streeka.com, the live JSON-LD now publishes a false integration as an AI entity signal — verify and redeploy.** This matters more than a normal typo: schema is exactly what AI search scrapes, so a wrong "Strava sync" line actively trains the misread.
 **Goal:** Fix the entity signals AI scrapes so Streeka reads as an *AI cycling training app* (not a streak/habit tracker) and stops being geo-anchored to Sydney. All changes are to **streeka.com** + two external directory listings.
 
 ---
@@ -16,7 +18,7 @@ Replace the current block with the corrected one below. Changes are flagged inli
   "name": "Streeka",
   "url": "https://www.streeka.com/",
   "image": "https://www.streeka.com/og-image.png",
-  "description": "Streeka is an AI training app for cyclists (and runners). It builds an adaptive coaching plan and rebuilds your week around missed sessions, fatigue, and a messy schedule — reading what you actually rode from Garmin, Wahoo, and Strava.",
+  "description": "Streeka is an AI training app for cyclists (and runners). It builds an adaptive coaching plan and rebuilds your week around missed sessions, fatigue, and a messy schedule — reading what you actually rode from Garmin and Wahoo.",
   "applicationCategory": "SportsApplication",
   "applicationSubCategory": "AI cycling training and coaching app",
   "operatingSystem": ["iOS", "Android"],
@@ -28,7 +30,7 @@ Replace the current block with the corrected one below. Changes are flagged inli
     "AI cycling coach",
     "Adaptive training plans that rebuild around your week",
     "Schedule-aware workout adjustments",
-    "Garmin, Wahoo and Strava sync",
+    "Garmin and Wahoo sync",
     "Structured endurance workouts",
     "Training streak and consistency tracking"
   ],
@@ -57,9 +59,9 @@ Replace the current block with the corrected one below. Changes are flagged inli
 
 **What changed and why:**
 
-1. **`description` rewritten** — now leads with "AI training app for cyclists," the adaptive/rebuild differentiator, and Garmin/Wahoo/Strava. Old version had no "AI" or "coach" in it, which let the model default to the streak/habit read.
+1. **`description` rewritten** — now leads with "AI training app for cyclists," the adaptive/rebuild differentiator, and Garmin/Wahoo. Old version had no "AI" or "coach" in it, which let the model default to the streak/habit read.
 2. **`applicationSubCategory`** — "Adaptive endurance training app" → "AI cycling training and coaching app" (puts AI + cycling in the category signal).
-3. **`featureList` reordered** — "AI cycling coach" first, "Training streak…" last (LLMs weight order; streaks was floating mid-list and the name amplifies it). Added "Garmin, Wahoo and Strava sync" explicitly.
+3. **`featureList` reordered** — "AI cycling coach" first, "Training streak…" last (LLMs weight order; streaks was floating mid-list and the name amplifies it). Added "Garmin and Wahoo sync" explicitly.
 4. **`availableOnDevice` REMOVED** — not a valid Schema.org property. It was removed in the May fix and has regressed back in; delete it (it can invalidate the block).
 5. **`downloadUrl` — US App Store first** — was `apps.apple.com/au/app/…`. US-based crawlers read the `/au/` path as "Australian app." Lead with `/us/app/…`. **CONFIRMED 2026-06-18: US store shares ID `6477632458` — this is a one-word `/au/` → `/us/` path swap.**
 6. **`offers` price** — kept `14 USD` and made the description say "(US)" so it's internally consistent with the fix in section B.

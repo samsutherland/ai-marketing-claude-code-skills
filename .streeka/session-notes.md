@@ -287,9 +287,9 @@ Two angles: **roundup gap** (UK mags) and **AU founder story** (home market). Pi
 > Most training apps hand you a tidy plan and a dashboard of numbers, then quietly fall apart the first time work blows out, you sleep badly, or Tuesday just doesn't happen. Streeka works the other way around: it's an AI coach you actually chat with. You ask it a question in plain language — "what did Saturday's ride say about my fitness?" — and it answers from your own data. When the week goes sideways it rebuilds the plan and tells you *why* it changed each session, instead of leaving you to interpret a screen full of metrics.
 >
 > A few details:
-> - Built in Sydney, founder-run; 80+ paying subscribers
+> - Built in Sydney, founder-run; around 40 paying subscribers
 > - iOS + Android, free 2-week trial then $29/month (AU)
-> - Connects with Garmin, Wahoo and Strava
+> - Connects with Garmin and Wahoo
 >
 > Press pack (screenshots + 90-second demo): https://www.streeka.com/press/ — and I'm happy to set you up with a free account to poke around.
 >
@@ -316,8 +316,8 @@ Note: don't claim to know their exact roundup contents (we don't, unlike the Bik
 > Key details:
 > - iOS + Android
 > - Free 2-week trial, then $14/month
-> - Connects with Garmin, Wahoo and Strava
-> - Built by a cyclist who couldn't find an app that handled a genuinely messy schedule — so he built one. 80+ paying subscribers.
+> - Connects with Garmin and Wahoo
+> - Built by a cyclist who couldn't find an app that handled a genuinely messy schedule — so he built one. Around 40 paying subscribers.
 >
 > Press pack (screenshots + 90-second demo): https://www.streeka.com/press/ — and I'm happy to set you up with a free account.
 >
@@ -348,7 +348,7 @@ Distribution/partnership leads — people or companies who could recommend, bund
 - mwm.ai independently tracked "10k+ downloads"
 - Instagram: 1,459 followers. YouTube: 22 subscribers. LinkedIn: 5 followers.
 - The 30k figure is almost certainly total registered accounts ever, not active users.
-- Streeka's 80 paying users beats their ghost accounts on any honest metric.
+- Streeka's ~40 paying users beats their ghost accounts on any honest metric.
 
 **Growth tactics worth borrowing:**
 1. **Intervals.icu forum** (`forum.intervals.icu`) — posted directly into the most engaged data-nerd cycling community. Likely their biggest single growth channel.
@@ -358,6 +358,145 @@ Distribution/partnership leads — people or companies who could recommend, bund
 5. **Strava club + subreddit** — community infrastructure that turns users into distribution.
 
 **What to note:** Their social presence is tiny. The 10-30k user range came from community seeding (Intervals.icu, Strava, cycling forums), not paid ads or large creators. Replicable at Streeka's current scale.
+
+---
+
+## Competitor Research — Cycling Coach AI (verified 2026-06-19)
+
+Facts confirmed by Sam (has the app installed), for the comparison-page set + AEO threat tracking (`ai-discoverability-reaudit-2026-06-17.md`):
+
+- **Price:** $19.99/mo, $49.99/yr. **US pricing only — not localised** (Streeka's localised $14 US / $29 AU undercuts on monthly).
+- **Platforms:** iOS + **web**. **No Android** (Streeka has Android — a real gap CCAI has).
+- **Chat:** Yes — plain-English chat exists (so "conversation" is NOT a clean Streeka differentiator anymore; Sam rates Streeka's as better but that's not a publishable claim).
+- **Explains *why* it changes the plan:** **NO.** ← This is the clean, verifiable wedge for Streeka. Lead the comparison content on **explainability**, not conversation.
+- **Data sources:** Strava, Garmin, Wahoo, **Whoop** — broader than Streeka (Garmin + Wahoo only). Honest gap; surfaced fairly in the comparison page.
+
+**Implication for positioning:** the defensible wedge is now **explainability** specifically (pillar 2), since CCAI matches conversation (pillar 1) and adaptation (pillar 3) and beats Streeka on data breadth + web. Streeka's counters: explains every change, Android, localised/cheaper pricing.
+
+**Streeka draft live:** `.streeka/comparison-streeka-vs-cycling-coach-ai.md` (Tier 1, publish-ready). Possible product backlog flag from this: Whoop + Strava-read support would close CCAI's only clear feature lead.
+
+---
+
+## Competitor Research — JOIN Cycling (verified 2026-06-19 via browse of join.cc)
+
+For the comparison-page set (`comparison-streeka-vs-join.md`, publish-ready):
+
+- **Price:** €16.99/mo, €119.99/yr (~€9.99/mo, "save 40%"). **EUR only** (Dutch company; not USD/AUD localised). **7-day free trial** (Streeka's is 2 weeks — a Streeka edge).
+- **Platforms:** iOS + Android + **web** (app.join.cc). Broader than Streeka (no web app yet).
+- **Chat:** **No.** JOIN asks *you* "how ready do you feel" and adapts; you can't ask *it* anything. Conversation is a clean Streeka differentiator here.
+- **Explains *why* it changes the plan:** **No.** It auto-shuffles ("instant adaptation to skipped workouts / availability," "shuffle workouts") but surfaces no per-change reasoning. Explainability is the other clean wedge.
+- **Genuinely adaptive** — do NOT call JOIN "rigid / assumes a clean week" (old internal shorthand; the site disproves it: it folds in unplanned club rides, adapts instantly).
+- **Also markets simplicity** — "easy to understand JOIN level" vs "incomprehensible graphs." So do NOT claim Streeka is the only one avoiding number-walls; JOIN fights that enemy too.
+- **Data sources:** Garmin, Wahoo, Strava, Zwift (broader than Streeka's Garmin + Wahoo).
+- **Other strengths:** designed by World Tour-level coaches; 400+ workouts; indoor/Zwift focus.
+
+**Net wedge vs JOIN:** narrow but solid — **chat + explains-why** (JOIN has neither), plus a longer trial. JOIN beats Streeka on data breadth, web app, coach pedigree, workout library. Comparison page concedes those honestly.
+
+**Cross-competitor pattern (CCAI + JOIN):** every competitor now does adaptation; several do simplicity; one (CCAI) does chat. **Explainability — "tells you *why* each session changed" — is the one pillar no competitor checked yet.** That's the sharpest, most defensible Streeka claim across the whole set. Lead all comparison/AEO content on it.
+
+---
+
+## Competitor Research — TrainingPeaks (verified 2026-06-19 via browse of trainingpeaks.com)
+
+For `comparison-streeka-vs-trainingpeaks.md` (publish-ready). TP is the incumbent — handle with respect, not attack.
+
+- **Price:** **Free Basic tier** + Premium **$19.95/mo** or **$134.99/yr** (~$11.25/mo, save 44%). **14-day trial.** Plus a **human-coach marketplace** (Bronze $149 / Silver $229 / Gold $359 per month; e.g. "2x plan adjustments per month" by a person).
+- **Platforms:** iOS + Android + web.
+- **Chat:** **No.** It's screens/charts/calendar.
+- **AI auto-adaptation:** **None.** Adaptation = you re-plan manually, or a paid human coach does. This is the cleanest contrast in the whole set.
+- **Data:** "Connect with any device" (widest device support of anyone) + Strava. Core product = **fitness & fatigue scores (CTL/ATL/TSS)** — TP *is* the "wall of numbers" archetype, so Streeka's plain-language pillar lands honestly here (it didn't vs JOIN).
+- **Strengths to concede:** 87% of WorldTour teams, 25 yrs, free tier, strength training (1,000+ movements), indoor **Virtual**, the standard tool coaches use.
+
+**Wedge vs TP:** all 3 pillars land — chat (TP none), auto-adapt + explains-why (TP neither; human coach does for a fee), plain-language vs dashboard. **Positioning split (non-attacking):** TP = best platform *if you have a human coach*; Streeka = coaching *built into the app* for the solo rider.
+
+**Tier 1 set status:** CCAI ✅, JOIN ✅, TrainingPeaks ✅ drafted+verified. **Correction:** the audit's Tier 1 spec was TP / JOIN / CCAI / **TrainerRoad** — so **TrainerRoad is the one Tier 1 page still NOT drafted** (I'd mis-called TP "the last one"). TrainerRoad is the structured-indoor-training incumbent (Adaptive Training / "AI" red-light-green-light) — verify before drafting; its "Adaptive Training" claim needs the same careful handling JOIN got.
+
+---
+
+## Competitor Research — TrainerRoad (verified 2026-06-19 via browse of trainerroad.com)
+
+For `comparison-streeka-vs-trainerroad.md` (publish-ready). TR has the strongest AI/adaptive marketing of the set — concede it, don't attack.
+
+- **Price:** **$17.45/mo billed annually ($209.99/yr)**, ~**$21.99/mo** monthly. **No free trial — 30-day money-back guarantee** instead. (Streeka's 2-week trial is a softer-commitment edge.)
+- **Platforms:** iOS, Android, Mac, Windows, Apple TV (widest of the set).
+- **Chat:** **Support chat only** ("assist you via email or chat") — **NOT a coaching chat.** So "coach you can talk to" is still a clean Streeka differentiator; just word it as *coaching* chat.
+- **Adaptive:** **Yes, genuinely — the most mature.** "TrainerRoad AI" runs simulations to pick the right workout, predicts perceived difficulty from history/performance/recovery, builds **Adaptive** plans. Do NOT claim Streeka is the only adaptive one.
+- **Explains why:** **No** — adapts the workout but surfaces no plain-language reasoning / conversation.
+- **Key positioning split:** TR adapts the **workout to your performance (to make you faster)**; Streeka adapts the **week to your life** and **talks you through it**. *Workout engine* vs *coach you talk to* — that's the honest, non-attacking frame.
+- **Data:** Garmin, Wahoo, Zwift and more. **Strengths to concede:** 30M+ workouts completed, 4.9/5 (25k+ reviews), huge structured library, indoor+outdoor, proven FTP gains.
+
+---
+
+## Comparison-page set — TIER 1 COMPLETE (2026-06-19)
+
+**All 4 head-to-heads drafted + fact-verified via browse:**
+- `comparison-streeka-vs-cycling-coach-ai.md` ✅
+- `comparison-streeka-vs-join.md` ✅
+- `comparison-streeka-vs-trainingpeaks.md` ✅
+- `comparison-streeka-vs-trainerroad.md` ✅
+
+**The one differentiator that survived verification against every competitor: explainability** ("tells you *why* each session changed"). CCAI/JOIN auto-adapt silently, TP doesn't auto-adapt, TR adapts but doesn't converse. Chat is *shared* with CCAI (and TR's is support-only), so the unique, defensible combined claim = **chat + explains-why**. Lead all comparison + AEO copy on it.
+
+**Build hand-off:** give the coding agent all 4 markdown files together. Each needs: `streeka.com/compare/<slug>`, `SoftwareApplication` + FAQ JSON-LD, and cross-links via a `/compare` hub page. Frame on conversation+explainability; honest competitor concessions are deliberate (citability + Sam's straight-shooter voice).
+
+**BUILT INTO THE SITE 2026-06-20** (repo `~/git/streeka-site`, Astro). Not yet committed/deployed — files staged in working tree:
+- `src/components/ComparePage.astro` — shared wrapper: hero + `.prose` body slot + visible FAQ + CTABanner; emits combined JSON-LD `@graph` of `SoftwareApplication` (Garmin+Wahoo, $14 USD, leads "AI coach you chat with"+"explains why") + `FAQPage`.
+- `src/pages/compare/index.astro` — hub (CollectionPage + ItemList schema), card grid.
+- `src/pages/compare/streeka-vs-{cycling-coach-ai,join,trainingpeaks,trainerroad,claude-strava}.astro` — **5 pages** (added `claude-strava` 2026-06-20).
+- `src/components/Footer.astro` — added crawlable `/compare/` link under Product.
+- **5th page — Streeka vs Claude + Strava** (the funnel/"connect Strava to Claude" reel angle): NOT a rival app, the DIY workflow. **Different wedge:** Claude already chats AND explains, so the contrast is *persistence + action + fuller data* — Streeka knows your whole plan/goals/history and acts (rebuilds week, pushes workouts to Garmin/Wahoo) vs Claude reading a read-only Strava activity slice cold each chat. Gracious tone ("keep using Claude for curiosity, Streeka for coaching; use both") — Claude is the reel's hero, don't disparage. Source: `strava-mcp-features.md` (MCP is read-only, activity-centric: list/activity-deep-dive/streams/gear/clubs; no write, zones gated) + the cheat-sheet guide's "where Claude+Strava stops being enough."
+- **Verified:** `npm run build` passes (23 pages), all 6 compare routes (hub + 5) in sitemap, JSON-LD valid (SoftwareApplication+FAQPage) on each, Streeka column = "Garmin, Wahoo" (no Strava miscredit) on all 5, no console errors, renders on-brand (lime/dark, tables styled via `.prose`).
+- **To ship:** `cd ~/git/streeka-site` → branch → commit → deploy. After deploy, per repo CLAUDE.md SEO workflow these are pages (not blog posts) so the sitemap auto-includes them; worth requesting indexing in Google Search Console for the 4 + hub. **60-day AEO re-audit (~2026-07-20):** check whether any /compare page gets cited in AI search for "Streeka vs X" / "X alternative" → moves Category Presence (the stuck 1/5).
+
+**Remaining in the audit's page-set spec:** Tier 2 ("TrainingPeaks alternative for a messy schedule," "JOIN alternative for time-crunched cyclists," "best adaptive cycling training apps") linking to Tier 1 as evidence; Tier 3 entity pages ("What is Streeka?" + "For AI Agents"/llms.txt — also fixes the audit's Critical #1 streak-misread).
+
+---
+
+## Comparison set — Tier 2 (smaller cycling apps) added 2026-06-20
+
+Sam picked **Spoked, CoachCat, RestOrTrain** (declined 2PEAK, Kotcha, and running apps Runna/Stride — running is off the cycling ICP). All browse-verified, built into the site, in sitemap.
+
+**KEY STRATEGIC FINDING — these three are near-feature-parity with Streeka.** Unlike Tier 1 (where "explains why" was a clean wedge nobody else had), CoachCat and RestOrTrain both chat, adapt, explain, AND push workouts to devices; Spoked is plan-first but full-featured. So **there is no honest capability wedge** against them — the pages compete on **ICP, price, platform (Android), and approach**, and concede competitor strengths honestly. This is correct for AEO (captures "X alternative" queries where Streeka is invisible) but the pages are positioning-led, not feature-win. Don't promote them as "Streeka beats X on features" — that's not true and the copy doesn't claim it.
+
+**Verified facts (2026-06-20):**
+- **Spoked** (spoked.ai): AI cycling coach, personalised + flexible plans built by pro coaches (since 2017), adapts on data/feedback. **Plan-first / export-based** — exports workouts to Garmin Connect, TrainingPeaks, Zwift (.zwo); Strava connect; Wahoo via TrainingPeaks. iOS + Android. **Free tier + paid from £3.99/mo**, 14-day trial. (Couldn't confirm a free-text chat — page leans plan+feedback; did NOT assert "no chat".) Wedge: Streeka = conversation + explains-why + direct Garmin/Wahoo sync.
+- **CoachCat** (by **FasCat Coaching**, fascatcoaching.com/app — NOT coachcat.com which is parked): **near-twin.** Conversational AI coach ("talk to CoachCat like a real coach"), post-ride analysis, smart plan adjustments, custom workouts, morning readiness, **in-app human support**. Built on FasCat's **20-yr structured/performance racing methodology**. Garmin + Zwift/Rouvy. iOS + Android. **$17.50–$34.99/mo**, first week free, 6-week improvement guarantee. Wedge: ICP (everyday messy-life vs FasCat racing methodology) + **price ($14 < $17.50–34.99)** + Garmin/Wahoo. **Flag: most similar competitor + established brand — weakest honest differentiation.**
+- **RestOrTrain** (restortrain.com): **near-twin, grown** — now 4.8/5, 1,000+ reviews (was 145 in June; new App Store id6752621455, likely relaunched). Conversational AI coach, deep full-history analysis, rest-or-train calls, adapts to life, **pushes workouts to Garmin/Wahoo/Zwift/Hammerhead**. Broadest integrations of the set (Garmin, Wahoo, Zwift, Hammerhead, Intervals.icu, Apple Health, Strava). **iOS only.** Free + **Pro $12.99/mo · $119.99/yr**. Wedge: **Android availability (RoT iOS-only)** + ICP + conversation framing; concede analysis depth + integration breadth. RoT runs its own AEO `/compare` page (vs TrainerRoad/JOIN/ChatGPT/Claude) — same playbook as CCAI.
+
+**Comparison set now 8 pages + hub — ALL DEPLOYED 2026-06-20** (Tier 1: CCAI/JOIN/TP/TrainerRoad; Claude+Strava; Tier 2: Spoked/CoachCat/RestOrTrain). Live at `streeka.com/compare/<slug>` + `/compare/` hub, linked from site footer. Source in `~/git/streeka-site/src/pages/compare/` + shared `src/components/ComparePage.astro` (emits SoftwareApplication + FAQPage JSON-LD per page; Streeka entity = Garmin/Wahoo, $14 USD, "AI coach you chat with"+"explains why"). This was the audit's #1 queued lever (Category-Presence fix + CCAI counter) — **now SHIPPED.**
+
+**Post-ship edits (also deployed 2026-06-20):**
+- Removed the "Last checked … if anything's wrong tell us" footer line from `ComparePage.astro` (affected all 8 pages) at Sam's request.
+- **Email oddity flagged:** clicking a site mailto opened an address showing "thepedaler". **No "thepedaler" anywhere in the site code/build** — every site email is @streeka.com (support@ in footer/privacy/terms/FAQ, hello@ on contact, sam@ on press). So the "thepedaler" resolution is on the **mailbox/forwarding or address-book side**, not the site. Sam to check `support@streeka.com` forwarding/aliases on the domain. No code change made.
+
+**Measure at 60-day AEO re-audit (~2026-07-20):** do any `/compare` pages get cited in AI search for "Streeka vs X" / "X alternative"? That's the test of whether Category Presence moves off 1/5.
+
+---
+
+## Tier 3 (AEO entity layer) + homepage schema fix — built 2026-06-20
+
+Completes the audit's page-set spec and addresses **Critical #1 (streak/habit-tracker misread).** Built in `~/git/streeka-site`, build passes (27 pages). **Staged uncommitted — needs commit + deploy.**
+
+- **`src/pages/what-is-streeka.astro`** — entity page (`/what-is-streeka/`). H1 "What is Streeka?", lead defines it as "AI cycling coach you chat with," and an explicit **"Not a streak tracker"** section that directly disambiguates the misread for LLMs. JSON-LD = SoftwareApplication + FAQPage (6 Q&A incl. "Is Streeka a streak or habit-tracking app? No…") + Organization/Person(founder). Linked from footer (Company col) + cross-links to /compare and /about.
+- **`public/llms.txt`** — agent-readable entity file at root (`/llms.txt`), llmstxt.org format: one-line summary, what-it-is facts (incl. "NOT a streak counter", "does NOT connect to Strava", Garmin/Wahoo, iOS/Android, $14/$29, founder), differentiators, and links to key pages + all 8 comparisons.
+- **Homepage schema + meta FIXED** (`src/pages/index.astro`): the live `SoftwareApplication` block still had the **Strava error** (description + featureList) and led with **"Training streak and consistency tracking"** — the exact signals feeding Critical #1. Now: description leads "AI cycling coach you chat with," featureList leads chat + explains-why, **Strava removed, streak feature removed**, subCategory "AI cycling coaching app", audience cyclist-first. Homepage `<meta description>` updated to match (was "AI training app… adaptive plan"). Verified in build: `dist/index.html` has 0 "Strava", 0 "Training streak".
+- **Footer:** added "What is Streeka?" under Company.
+
+**Critical #1 now addressed on-site** (entity page + llms.txt + corrected homepage schema/meta all hammer "AI cycling coach", not streak). Won't know if AI search stops the misread until the 60-day re-audit (~2026-07-20) — that re-check is in the audit report.
+
+**STILL OPEN — Critical #2 (Sydney geo anchor):** off-site, Sam's task — Prospeo + F6S listings still show Sydney; Stone & Chalk adds a third anchor. On-site schema has no geo problem. Fix = edit those directory listings to Global. See `ticket-schema-geo-fixes-2026-06-17.md` §C.
+
+---
+
+## "Which…" buyer's-guide page + paying-user correction — 2026-06-20
+
+**Paying-user count corrected: ~40 (was wrongly "80/80+") everywhere.** Sam confirmed "40 tops." Fixed: press pack (`press/streeka-press-pack.md` → "Around 40 paying subscribers"), session-notes press templates (×2), RestOrTrain note, and the 4 Tier-1 comparison drafts (dropped the count sentence to match the live site, which Sam had already stripped). **Live comparison pages were already clean** (no count). **Press pack PDF retired — Sam now uses the on-site `/press/` page (says it's fixed); no PDF to regenerate.** Phrasing used = "around 40 paying subscribers" (dial down to "30+" or drop if preferred).
+
+**New page — "Which AI cycling training app should you choose?"** (`/compare/which-ai-cycling-training-app/`). Sam's insight: Google decision-queries increasingly start with **"which"** ("which AI training app for cyclists"). This is a buyer's-guide that targets that intent + the Category-Presence queries (Streeka was 1/5). Honest decision framework (routes readers to competitors where they genuinely fit — that's what makes "which" guides citable), "which app for which rider" Q-sections (busy schedule / chat / racing / Android / cheapest / explains-why), reuses the verified "who should pick which" verdicts from the 8 head-to-heads, links to all 8, FAQPage JSON-LD with 6 "which…" questions. Featured at top of `/compare/` hub + added to `llms.txt`. Built (28 pages), renders clean. **Staged uncommitted — needs commit + deploy.**
+
+**AEO cluster now:** homepage entity fix + `/what-is-streeka/` + `/llms.txt` + `/compare/` hub + 8 head-to-heads + the "which" buyer's guide = 11 comparison/entity URLs. Validation = 60-day re-audit (~2026-07-20): are any cited in AI search + do "which" queries surface Streeka.
+
+**Active lever Sam is running:** App Store reviews push (→10+, unlocks aggregateRating + Sentiment). Drafting offered, Sam taking it himself.
 
 ---
 
