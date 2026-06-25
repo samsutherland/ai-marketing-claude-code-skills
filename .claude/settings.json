@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(cd /Users/samsutherland/git/streeka-site && grep -n \"—\" src/pages/bowral.astro || echo \"no em dashes left in bowral.astro\")",
+      "Read(//Users/samsutherland/git/streeka-site/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/samsutherland/git/streeka-site/src/pages"
     ]
   }
 }
